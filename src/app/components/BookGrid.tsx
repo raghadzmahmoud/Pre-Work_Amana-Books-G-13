@@ -146,7 +146,7 @@ const BookGrid: React.FC<BookGridProps> = ({ books, onAddToCart }) => {
                     onClick={() => goToFeaturedPage(index)}
                     className={`w-2 h-2 rounded-full transition-colors duration-200 cursor-pointer ${
                       index === featuredCarouselIndex 
-                        ? 'bg-blue-600' 
+                        ? 'bg-purple-600' 
                         : 'bg-gray-300 hover:bg-gray-400'
                     }`}
                     aria-label={`Go to featured books page ${index + 1}`}
